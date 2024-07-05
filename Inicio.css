@@ -181,6 +181,18 @@ a{
         }  
      
   }
+
+@keyframes bordas {
+     0% {
+          border: 2px solid white;
+     }
+     50% {
+          border: 2px solid rgb(0, 0, 0);
+     }
+     100% {
+          border: 2px solid rgb(255, 255, 255);
+     }
+}
  
   
 
@@ -194,6 +206,7 @@ a{
      text-shadow: 4px 2px 2px #00000085;
      text-decoration: none;
      border-radius: 100px;
+     animation: bordas 2s infinite;
 }
 a{
      text-decoration: none;
@@ -201,6 +214,7 @@ a{
 .corpo_button:hover{
      transition: 1.4s;
      background-color: rgb(0, 255, 0);
+     animation: bordas 0s infinite;
 }
 .footer{
      background-color: rgb(255, 255, 255);
@@ -318,7 +332,7 @@ a{
      }
    
      .corpo{
-          margin-bottom: 0;
+          margin-bottom:  200px;
      }
 
      .link_nav{
@@ -370,7 +384,8 @@ a{
      }
 
      .corpo{
-          
+          margin-bottom: 
+          0px;
      }
 
      #corpo_h1_0{
@@ -420,6 +435,6 @@ a{
           position:relative;
           top: 20px
      }
-     
+    
 
 }    
